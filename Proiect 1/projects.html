@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiecte - Portofoliul meu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Epure Robert Costin</a>
+            <button class="hamburger" aria-label="Deschide meniul">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="about.html">Despre</a></li>
+                <li><a href="projects.html" class="active">Proiecte</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Proiectele mele</h1>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Toate</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="joc">Jocuri</button>
+        </div>
+
+        <div class="grid">
+            <article class="card project-card" data-category="web">
+                <h3>🛒 Magazin online</h3>
+                <p>Un magazin simplu făcut cu HTML și CSS.</p>
+            </article>
+            <article class="card project-card" data-category="joc">
+                <h3>🎮 X și 0</h3>
+                <p>Jocul X și 0 făcut în JavaScript.</p>
+            </article>
+            <article class="card project-card" data-category="web">
+                <h3>📝 Listă de sarcini</h3>
+                <p>Aplicație în care adaugi și ștergi sarcini.</p>
+            </article>
+            <article class="card project-card" data-category="joc">
+                <h3>🐍 Șarpele</h3>
+                <p>Jocul cu șarpele care mănâncă mere.</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Epure Robert Costin</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
